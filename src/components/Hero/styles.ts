@@ -16,11 +16,34 @@ export const Container = styled.section`
     }
     h1{
       font-size: 8rem;
-      font-family: "Rubik Scribble", system-ui;
+      /* font-family: "Rubik Scribble", system-ui; */
     }
 
+    /* h1::after {
+      content: "";
+      width: 6rem;
+      height: 8px;
+      border-radius: 2px;
+      background-color: var(--orange);
+      top: -10px;
+      left: -20px;
+      position: absolute;
+      z-index: 0;
+    }
+  h1::before {
+    content: "";
+    width: 8px;
+    height: 6rem;
+    border-radius: 2px;
+    background-color: var(--orange);
+    top: -10px;
+    left: -20px;
+    position: absolute;
+    z-index: 0;
+  } */
+
     h3{
-      color:var(--green);
+      color:var(--orange);
       margin: 1rem 0;
     }
 
@@ -33,7 +56,7 @@ export const Container = styled.section`
   .social_media_icons{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
     gap: 1rem;
     /* background-color: rgba( 60,55,55,0.2 ); */
@@ -55,11 +78,13 @@ export const Container = styled.section`
 
   .hero-image{
     img{
-      max-width: 400px;
+      max-width: 300px;
       border-radius: 50%;
       mix-blend-mode: color-burn;
-      border: 8px solid var(--green);
+      /* border: 8px solid #eee; */
       object-fit: contain;
+      filter: drop-shadow(0mm -5mm 8mm var(--orange));
+      /* background-color: #eee; */
     }
   }
 

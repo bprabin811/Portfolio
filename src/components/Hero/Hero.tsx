@@ -8,13 +8,15 @@ import githubIcon from '../../assets/github.svg'
 import facebook from '../../assets/facebook.svg'
 import snapchat from '../../assets/snapchat.svg'
 import instagram from '../../assets/instagram.svg'
+import prabin from '../../assets/prabin.png'
+
 export function Hero() {
   return (
     <Container id="home">
       
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInLeft" delay={1 * 1000}>
-          <img src={"https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/368794556_1367683624129088_3725648074823202911_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=nluHHJAsvIMAX_umkUJ&_nc_ht=scontent.fktm3-1.fna&oh=00_AfAyt7AWpkV0FpxB0YtiZKKOZFS3gQbhbKJ6lKyaXjffuA&oe=660EC6BD"} alt="Profile" />
+          <img src={prabin} alt="Profile" />
         </ScrollAnimation>
       </div>
       

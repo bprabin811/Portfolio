@@ -25,7 +25,7 @@ export const Container = styled.section`
             text-align: justify;
         }
         a{
-            color: var(--green);
+            color: var(--orange);
             font-weight: 300;
             text-decoration: underline;
         }
