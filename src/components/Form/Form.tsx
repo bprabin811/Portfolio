@@ -1,12 +1,12 @@
-import { Container, ContainerSucces } from './styles'
-import { useForm, ValidationError } from '@formspree/react'
-import { toast, ToastContainer } from 'react-toastify'
-import ReCAPTCHA from 'react-google-recaptcha'
-import { useEffect, useState } from 'react'
-import validator from 'validator'
+import { Container, ContainerSucces } from './styles';
+import { useForm, ValidationError } from '@formspree/react';
+import { toast, ToastContainer } from 'react-toastify';
+import ReCAPTCHA from 'react-google-recaptcha';
+import { useEffect, useState } from 'react';
+import validator from 'validator';
 
 export function Form() {
-  const [state, handleSubmit] = useForm('xknkpqry')
+  const [state, handleSubmit] = useForm('mgegnnoo')
   const [validEmail, setValidEmail] = useState(false)
   const [isHuman, setIsHuman] = useState(false)
   const [message, setMessage] = useState('')
@@ -45,8 +45,16 @@ export function Form() {
   }
   return (
     <Container>
-      <h2>Get in touch using the form</h2>
       <form onSubmit={handleSubmit}>
+        <input
+          placeholder="Name"
+          id="name"
+          type="name"
+          name="name"
+          onChange={(e) => {
+            verifyEmail(e.target.value)
+          }}
+        />
         <input
           placeholder="Email"
           id="email"
@@ -60,7 +68,7 @@ export function Form() {
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           required
-          placeholder="Send a message to get started."
+          placeholder="Type a message"
           id="message"
           name="message"
           onChange={(e) => {
@@ -73,14 +81,14 @@ export function Form() {
           errors={state.errors}
         />
         <ReCAPTCHA
-          sitekey="6Lfj9NYfAAAAAP8wPLtzrsSZeACIcGgwuEIRvbSg"
+          sitekey="6LfADaopAAAAAO96nTDgxXzrIkVrDwpczVwEvekh"
           onChange={(e) => {
             setIsHuman(true)
           }}
         ></ReCAPTCHA>
         <button
           type="submit"
-          disabled={state.submitting || !validEmail || !message || !isHuman}
+          disabled={state.submitting || !validEmail || !message || !isHuman }
         >
           Submit
         </button>

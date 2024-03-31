@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   margin-top: 10rem;
+  padding: 8px;
 
   header{
     text-align: start;
@@ -12,7 +13,8 @@ export const Container = styled.section`
     }
     p{
       color: var(--green);
-      font-weight: 500;
+      font-weight: 300;
+      font-size: 3rem;
     }
   }
 

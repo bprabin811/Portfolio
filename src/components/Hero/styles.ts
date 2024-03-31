@@ -6,8 +6,11 @@ export const Container = styled.section`
   justify-content: space-between;
 
   gap: 8rem;
-  background: rgba(0,0,0,0);
+  
   .hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     & > p{
       font-size: 1.8rem;
     }
@@ -27,13 +30,16 @@ export const Container = styled.section`
     }
   }
 // New added
-  .social-media{
-    display: inline-flex;
+  .social_media_icons{
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: column;
     gap: 1rem;
-    padding-top:5rem;
-    padding-left:1rem;
+    /* background-color: rgba( 60,55,55,0.2 ); */
+    border-radius: 5px;
+    padding: 10px;
+
 
     img,span{
       font-size: 3rem;
@@ -50,6 +56,10 @@ export const Container = styled.section`
   .hero-image{
     img{
       max-width: 400px;
+      border-radius: 50%;
+      mix-blend-mode: color-burn;
+      border: 8px solid var(--green);
+      object-fit: contain;
     }
   }
 
@@ -67,6 +77,12 @@ export const Container = styled.section`
     
     .hero-image{
       display: none;
+    }
+
+    .social_media_icons{
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 5rem;
     }
   }
 

@@ -30,7 +30,7 @@ export function Main() {
     "composite": "destination-out",
     "cover": {
       "color": {
-        "value": "#fff"
+        "value": "#9cb810"
       },
       "opacity": 1
     },
@@ -67,12 +67,12 @@ export function Main() {
     },
     "modes": {
       "trail": {
-        "delay": 0.5,
+        "delay": 0.1,
         "pauseOnStop": true,
         "quantity": 5,
         "particles": {
           "color": {
-            "value": "#393838",
+            "value": "#ee4c4c",
             "animation": {
               "enable": true,
               "speed": 1,
@@ -107,7 +107,7 @@ export function Main() {
         }
       },
       "attract": {
-        "distance": 200,
+        "distance": 400,
         "duration": 0.4,
 
         "factor": 1,
@@ -116,11 +116,11 @@ export function Main() {
       },
 
       "bubble": {
-        "distance": 200,
+        "distance": 400,
         "duration": 0.4,
         "mix": false,
         "divs": {
-          "distance": 200,
+          "distance": 400,
           "duration": 0.4,
           "mix": false,
           "selectors": []
@@ -150,7 +150,7 @@ export function Main() {
         "quantity": 2
       },
       "repulse": {
-        "distance": 200,
+        "distance": 400,
         "duration": 0.4,
         "factor": 100,
         "speed": 1,
@@ -158,13 +158,13 @@ export function Main() {
       },
       "slow": {
         "factor": 3,
-        "radius": 200
+        "radius": 400
       },
       "light": {
         "area": {
           "gradient": {
             "start": {
-              "value": "#ffffff"
+              "value": "#eedd26"
             },
             "stop": {
               "value": "#000000"
@@ -176,7 +176,7 @@ export function Main() {
           "color": {
             "value": "#bfbbbb"
           },
-          "length": 2000
+          "length": 4000
         }
       }
     }
@@ -247,7 +247,7 @@ export function Main() {
         "value": 90
       },
       "attract": {
-        "distance": 200,
+        "distance": 400,
         "enable": false,
         "rotate": {
           "x": 3000,
@@ -304,7 +304,7 @@ export function Main() {
 
       },
 
-      "value": 25
+      "value": 10
     },
     "opacity": {
       "value": {
@@ -428,7 +428,7 @@ export function Main() {
     "life": {
       "count": 0,
       "delay": {
-        "value": 1,
+        "value": 0.1,
         "sync": true
       },
       "duration": {
@@ -519,7 +519,7 @@ export function Main() {
       <Showcase></Showcase>
       <Slider></Slider>
       <Project></Project>
-      {/* <Contact></Contact> */}
+      <Contact></Contact>
     </Container>
   );
 }

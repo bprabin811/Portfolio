@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   :root{
     --orange: #EB7E11;
-    --black: #111;
+    --black: #000;
     --green: #EB7E11;
     --blue: #016fb9;
     scroll-padding-top: 10rem;
@@ -44,8 +44,9 @@ export const GlobalStyle = createGlobalStyle`
       form{
         input,textarea{
           transition: 0.5s;
-          border: solid 1px var(--black);
+          border: none;
           color: var(--black);
+          background-color: #ddd;
           &::placeholder{
             transition: 0.5s;
             color: var(--black);

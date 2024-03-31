@@ -27,11 +27,11 @@ export const Container = styled.section`
       height: 100%;
       color: #FFF;
 
-      background: rgba( 60, 55, 55, 0.2 );
+      background: rgba( 60, 55, 55, 0.3 );
       /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
       /* backdrop-filter: blur( 3.5px );
       -webkit-backdrop-filter: blur( 3.5px ); */
-      border-radius: 10px;
+      border-radius: 5px;
       /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
       &:hover{
         transform: translateY(-5px);

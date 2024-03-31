@@ -11,7 +11,7 @@ export function Showcase(){
 
            <div>
             <ScrollAnimation animateIn="fadeInLeft" style={{display:"flex",justifyContent:"end"}}>  
-            <img src={show} alt="" />
+            <img src={show} alt="Showcase" style={{borderRadius:"5px"}}/>
             </ScrollAnimation>
            </div>
            <div>

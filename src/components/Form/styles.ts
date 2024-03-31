@@ -5,29 +5,26 @@ export const Container = styled.div`
   margin-top: 3rem;
   display: grid;
   place-items: center;
-  h2{
-    text-align: center;
-    margin-bottom: 2rem;
-  }
   form{
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
-    gap: 1rem;
+    align-items: start;
+    gap: 2rem;
     width: 100%;
     input, textarea{
-      width: 60rem;
+      width: 70%;
       padding: 1rem 2rem;
-      border-radius: 1.6rem;
+      border-radius: 5px;
       outline: none;
       border: none;
       background:none;
-      border: 1px solid #FFF;
+      /* border: 1px solid #aaa; */
+      background-color: rgba( 60,55,55,0.3 );
       color: white;
-      font-weight: 600;
+      font-weight: 300;
       &::placeholder{
-        color: #FFF;
+        color: #aaa;
       }
     }
 
@@ -58,7 +55,7 @@ export const Container = styled.div`
 
 export const ContainerSucces = styled.div`
   margin-top: 10rem;
-  text-align: center;
+  text-align: start;
 
   button{
     border-radius: 0.6rem;
