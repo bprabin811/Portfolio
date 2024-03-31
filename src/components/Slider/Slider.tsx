@@ -1,6 +1,5 @@
 import { Container } from "./styles";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { NavHashLink } from "react-router-hash-link"
 import { BrowserRouter } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 

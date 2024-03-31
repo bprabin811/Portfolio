@@ -3,8 +3,6 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 import logo from '../../assets/favicon.png'
-import { FaLightbulb } from "react-icons/fa";
-import { FaRegLightbulb } from "react-icons/fa";
 
 import { MdLight } from "react-icons/md";
 import { MdOutlineLight } from "react-icons/md";

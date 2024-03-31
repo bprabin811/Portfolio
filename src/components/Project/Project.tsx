@@ -11,7 +11,7 @@ export function Project() {
           <div className="project">
             <header>
               <div className="project-links">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="https://github.com/bprabin811" target="_blank" rel="noreferrer">
                   <img src={"https://prabinbhatt.com.np/assets/churn-bba4b766.png"} alt="Visit site" />
                 </a>
               </div>
@@ -35,7 +35,7 @@ export function Project() {
           <div className="project">
             <header>
               <div className="project-links">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="https://github.com/bprabin811" target="_blank" rel="noreferrer">
                   <img src={"https://prabinbhatt.com.np/assets/dep-4d43ae53.png"} alt="Visit site" />
                 </a>
               </div>
@@ -59,7 +59,7 @@ export function Project() {
           <div className="project">
             <header>
               <div className="project-links">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="https://github.com/bprabin811" target="_blank" rel="noreferrer">
                   <img src={"https://prabinbhatt.com.np/assets/veg-b024d230.png"} alt="Visit site" />
                 </a>
               </div>
@@ -84,7 +84,7 @@ export function Project() {
           <div className="project">
             <header>
               <div className="project-links">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="https://github.com/bprabin811" target="_blank" rel="noreferrer">
                   <img src={"https://prabinbhatt.com.np/assets/imagelab-b470e16a.png"} alt="Visit site" />
                 </a>
               </div>
