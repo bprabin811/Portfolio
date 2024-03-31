@@ -37,7 +37,7 @@ export function Hero() {
       </div>
        <div className="social_media_icons">
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-          <a href="https://www.linkedin.com/in/prabin-bhatt-9b0a1b1b9/" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/pro_win811/" target="_blank" rel="noreferrer">
             <img src={instagram} alt="Instagram" />
             
           </a>
@@ -48,7 +48,7 @@ export function Hero() {
           </a>
         </ScrollAnimation>
          <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-          <a href="https://www.instagram.com/pro_win811/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/bprabin811" target="_blank" rel="noreferrer">
             <img src={githubIcon} alt="Github" />
           </a>
         </ScrollAnimation>
