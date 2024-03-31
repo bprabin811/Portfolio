@@ -1,6 +1,13 @@
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
 
+import churn from '../../assets/cp.png'
+import dep from '../../assets/dep.png'
+import store from '../../assets/vegstor.png'
+import imagelab from '../../assets/imagelab.png'
+
+
+
 
 export function Project() {
   return (
@@ -12,7 +19,7 @@ export function Project() {
             <header>
               <div className="project-links">
                 <a href="https://github.com/bprabin811" target="_blank" rel="noreferrer">
-                  <img src={"https://prabinbhatt.com.np/assets/churn-bba4b766.png"} alt="Visit site" />
+                  <img src={churn} alt="Visit site" />
                 </a>
               </div>
             </header>
@@ -36,7 +43,7 @@ export function Project() {
             <header>
               <div className="project-links">
                 <a href="https://github.com/bprabin811" target="_blank" rel="noreferrer">
-                  <img src={"https://prabinbhatt.com.np/assets/dep-4d43ae53.png"} alt="Visit site" />
+                  <img src={dep} alt="Visit site" />
                 </a>
               </div>
             </header>
@@ -60,7 +67,7 @@ export function Project() {
             <header>
               <div className="project-links">
                 <a href="https://github.com/bprabin811" target="_blank" rel="noreferrer">
-                  <img src={"https://prabinbhatt.com.np/assets/veg-b024d230.png"} alt="Visit site" />
+                  <img src={store} alt="Visit site" />
                 </a>
               </div>
             </header>
@@ -85,7 +92,7 @@ export function Project() {
             <header>
               <div className="project-links">
                 <a href="https://github.com/bprabin811" target="_blank" rel="noreferrer">
-                  <img src={"https://prabinbhatt.com.np/assets/imagelab-b470e16a.png"} alt="Visit site" />
+                  <img src={imagelab} alt="Visit site" />
                 </a>
               </div>
             </header>
