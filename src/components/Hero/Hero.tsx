@@ -39,25 +39,26 @@ export function Hero() {
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
           <a href="https://www.linkedin.com/in/prabin-bhatt-9b0a1b1b9/" target="_blank" rel="noreferrer">
             <img src={instagram} alt="Instagram" />
+            
           </a>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-          <a href="https://github.com/prabinbhatt" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/prabin-bhatta-33b48b27b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">
             <img src={linkedin} alt="Linkedin" />
           </a>
         </ScrollAnimation>
          <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-          <a href="https://www.linkedin.com/in/prabin-bhatt-9b0a1b1b9/" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/pro_win811/" target="_blank" rel="noreferrer">
             <img src={githubIcon} alt="Github" />
           </a>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-          <a href="https://github.com/prabinbhatt" target="_blank" rel="noreferrer">
+          <a href="https://www.facebook.com/pro.win.125" target="_blank" rel="noreferrer">
             <img src={facebook} alt="facebook" />
           </a>
         </ScrollAnimation>
          <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-          <a href="https://www.linkedin.com/in/prabin-bhatt-9b0a1b1b9/" target="_blank" rel="noreferrer">
+          <a href="https://www.snapchat.com/add/prabin_bhatta19?share_id=4eW-hTwTxoA&locale=en-US" target="_blank" rel="noreferrer">
             <img src={snapchat} alt="Snapchat" />
           </a>
         </ScrollAnimation>
