@@ -4,6 +4,7 @@ export const Container = styled.section`
   padding-top: 15%;
   display: flex;
   justify-content: space-between;
+
   gap: 8rem;
   background: rgba(0,0,0,0);
   .hero-text{
@@ -11,7 +12,8 @@ export const Container = styled.section`
       font-size: 1.8rem;
     }
     h1{
-      font-size: 7rem;
+      font-size: 8rem;
+      font-family: "Rubik Scribble", system-ui;
     }
 
     h3{
@@ -47,7 +49,7 @@ export const Container = styled.section`
 
   .hero-image{
     img{
-      max-width: 500px;
+      max-width: 400px;
     }
   }
 
@@ -57,8 +59,9 @@ export const Container = styled.section`
     margin-top: 15%;
     .hero-text{
 
-      h1{
-        font-size: 5rem;
+
+      & >h1{
+        font-size: 2rem;
       }
     }
     

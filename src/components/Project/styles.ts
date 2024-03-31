@@ -5,9 +5,10 @@ export const Container = styled.section`
   margin-top: 15rem;
   
   h2{
-    text-align: center;
+    text-align: start;
     font-size: 4rem;
-    margin-bottom: 3rem;
+    padding: 10px;
+    margin-bottom: 2rem;
   }
   .projects{
     display: grid;
@@ -19,16 +20,28 @@ export const Container = styled.section`
 
     .project{
       padding: 2rem 1.8rem;
-      background-color: #2b2b2b;
-      border-radius: 1.2rem;
+      /* background-color: #2b2b2b; */
       transition: 0.25s;
       display: flex;
       flex-direction: column;
       height: 100%;
       color: #FFF;
+
+      background: rgba( 60, 55, 55, 0.2 );
+      /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+      /* backdrop-filter: blur( 3.5px );
+      -webkit-backdrop-filter: blur( 3.5px ); */
+      border-radius: 10px;
+      /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
       &:hover{
         transform: translateY(-5px);
-        background-color: var(--pink);
+        background: rgba( 60, 55, 55, 0.9 );
+      }
+
+      .body{
+        h3{
+          color: green;
+        }
       }
 
       header{
@@ -43,16 +56,17 @@ export const Container = styled.section`
           gap: 1rem;
         }
         a > img {
-          width: 5.0rem;
+          width: 50%;
+          border-radius: 5px;
         }
       }
       
       h3{
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
       }
 
       p{
-        letter-spacing: 0.12rem;
+        /* letter-spacing: 0.12rem; */
         margin-bottom: 2rem;
         a{
           color: #FFFF;

@@ -5,9 +5,10 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.8rem 10rem;
+  padding: 1.8rem 11rem;
   
-  background-color: #21212150;
+  
+  background-color: #111;
   
   backdrop-filter: blur(6px);
 
@@ -15,7 +16,7 @@ export const Container = styled.header`
   top: 0;
   left: 0;
   width: 100vw;
-  z-index: 1000;
+  z-index: 1000000;
 
   nav{
     display: flex;
@@ -25,7 +26,7 @@ export const Container = styled.header`
       color: #FFFF;
       padding: 0.6rem;
       font-family: 'Red Hat Display', sans-serif;
-      font-weight: 500;
+      font-weight: 200;
       text-transform: uppercase;
       transition: filter 0.25s;
 
@@ -134,7 +135,7 @@ export const Container = styled.header`
   }
 
   input:checked + label {
-    background: var(--pink);
+    background: var(--orange);
   }
 
   input:checked + label:after {
@@ -172,7 +173,7 @@ export const Container = styled.header`
       background-color: var(--green);
 
       a.button{
-        background-color: var(--pink);
+        background-color: var(--orange);
       }
 
       &.active{

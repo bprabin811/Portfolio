@@ -5,9 +5,9 @@ export const Container = styled.section`
   margin-top: 10rem;
 
   header{
-    text-align: center;
+    text-align: start;
     h2{
-      text-align: center;
+      text-align: start;
       font-size: 4rem;
     }
     p{
@@ -18,14 +18,14 @@ export const Container = styled.section`
 
   .contacts{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     gap: 2rem;
-    place-items: center;
+    place-items: start;
     margin-top: 1.5rem;
     div{
       display: flex;
-      align-items: center;
+      align-items: start;
       justify-content: center;
       width: 50%;
       max-width: 30rem;
@@ -42,7 +42,7 @@ export const Container = styled.section`
         font-weight: 500;
       }
       &:hover{
-        background-color: var(--pink);
+        background-color: var(--orange);
         a{
           color: #FFF;
         }

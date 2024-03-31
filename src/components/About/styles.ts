@@ -6,23 +6,6 @@ export const Container = styled.section`
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 
-  .hard-skills{
-    margin-top: 1.6rem;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1.8rem;
-  }
-  .hability{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    img{
-      width: 3.4rem;
-    }
-  }
-
   h2{
     display: inline-block;
     margin-bottom: 2rem;
@@ -38,18 +21,20 @@ export const Container = styled.section`
   }
 
   p{
-    font-size: 1.8rem;
-    letter-spacing: 0.1rem;
-    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0rem;
+    text-align: justify;
+    font-weight: 400;
   }
   
   
 
   .about-image{
-    text-align: center;
+    text-align: end;
    img{
      margin-top: 2rem;
-     width: 75%;
+     border-radius: 10px;
+     width: 90%;
      filter: grayscale(0);
      transition: filter 0.5s;
      &:hover{
@@ -77,9 +62,6 @@ export const Container = styled.section`
     display: block;
     text-align: center;
     
-    .hard-skills{
-      justify-content: center;
-    }
     .about-image{
       display: flex;
       max-width: 100%;

@@ -2,9 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   :root{
-    --pink: #E31F71;
-    --black: #212121;
-    --green: #23ce6b;
+    --orange: #EB7E11;
+    --black: #111;
+    --green: #EB7E11;
     --blue: #016fb9;
     scroll-padding-top: 10rem;
 
@@ -81,7 +81,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button{
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Sora", sans-serif;
     font-weight: 400;
   }
 
