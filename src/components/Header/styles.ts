@@ -8,7 +8,7 @@ export const Container = styled.header`
   padding: 1.8rem 11rem;
   
   
-  background-color: #000;
+  background-color: #0E1016;
   
   backdrop-filter: blur(6px);
 

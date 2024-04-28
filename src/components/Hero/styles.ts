@@ -8,6 +8,10 @@ export const Container = styled.section`
   gap: 8rem;
   
   .hero-text{
+    /* background-color: #121111;
+    padding: 1rem 5rem;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 5px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,11 +61,11 @@ export const Container = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 1rem;
+    flex-direction: row;
+    gap: 2rem;
     /* background-color: rgba( 60,55,55,0.2 ); */
     border-radius: 5px;
-    padding: 10px;
+    padding-top: 2rem;
 
 
     img,span{
@@ -101,7 +105,7 @@ export const Container = styled.section`
     }
     
     .hero-image{
-      display: none;
+      display: block;
     }
 
     .social_media_icons{
